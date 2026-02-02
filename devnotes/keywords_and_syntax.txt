@@ -1,0 +1,25 @@
+-- Current keywords of this release --
+
+
+construct <- declares a Construct,the main thing of this language
+
+println <construct> <- Print all construct values
+
+String "template" <- String value
+
+Num 10 <- Number value (template number)
+
+Bool (true|false) <- Boolean Value
+
+Arith 5+5 <- Arithmetic expression
+
+
+
+-- Current syntax symbols of this release --
+
+
+=> [] <- Construct body
+
+{} <- Wrapper for arithmetic expressions like this: Arith {1+1};
+
+; <- Semicolon for stuff like println,value declarations (Forget one of these and you are doomed)

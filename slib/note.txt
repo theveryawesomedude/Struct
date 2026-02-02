@@ -1,0 +1,2 @@
+Coming soon... :)
+This folder will hold Struct's standard libraries

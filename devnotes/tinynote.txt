@@ -1,0 +1,18 @@
+Make sure to put the shim "struct.cmd" from shm\ to PATH!
+
+so how to put it into PATH?
+
+win+S (Search)
+type in environment variables
+and click "Edit the system environment variables"
+go to advanced > Environment Variables...
+
+at system variables,find PATH (or Path)
+
+and click path
+and than edit
+now make an environment variable by clicking the field that contains those paths
+and put "C:\Users\TemplateName\TemplateStructInstallPath\shm\struct.cmd"
+put the actual path instead of this.
+
+than test by typing "struct" in CMD or pshell (git bash cannot recognize the shim"

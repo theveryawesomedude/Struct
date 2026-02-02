@@ -1,0 +1,28 @@
+
+construct foo => [
+    String "hi";
+    Num 13;
+    Bool false;
+    String "construct1";
+]
+
+construct bar => [
+    String "bro";
+    Num 67;
+    Bool true;
+    Arith {5+3};
+    String "construct2";
+]
+
+println foo;
+println bar;
+println barfoo;
+
+construct barfoo => [
+    String "fuh";
+    Num 313;
+    Bool false;
+    Arith {21+6};
+    String "construct3";
+]
+
